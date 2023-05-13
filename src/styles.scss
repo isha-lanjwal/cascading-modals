@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+.cursor{
+    cursor: pointer;
+}
+.modal-backdrop {
+    z-index: 1040 !important;
+}
+.modal-dialog{width: 100%; max-width:965px;}
+.popup-add-roll{
+    h4{margin-bottom: 0; font-weight: 700; color: black;}
+    .modal-header{background: grey;
+        .close{color: black;}
+    }
+}
